@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section id="about" className="section-pad py-24 sm:py-32">
       <div className="mx-auto max-w-6xl grid lg:grid-cols-[0.7fr_1.3fr] gap-14 items-start">
-        <div>
+        <div className="order-2 lg:order-1">
           <div className="relative aspect-[4/5] rounded-3xl overflow-hidden card-surface mb-6">
             {personal.aboutPhoto ? (
               <img
@@ -39,7 +39,7 @@ export default function About() {
           </div>
         </div>
 
-        <div>
+        <div className="order-1 lg:order-2">
           <p className="text-sm font-medium text-periwinkle-600 dark:text-periwinkle-300 mb-3">
             Tentang Saya
           </p>

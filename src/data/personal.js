@@ -14,8 +14,9 @@ export const personal = {
   aboutPhoto: "/images/profile/photo-about.jpg",
   email: "sdelliaputri@gmail.com",
   phone: "0812-9436-7800",
+  whatsapp: "https://wa.me/qr/6VNAJOGAGYVSK1",
   linkedin: "https://www.linkedin.com/in/dellia-putri-santoso-86b159250/",
-  github: null, // belum tercantum di CV — tambahkan URL profil GitHub di sini
+  github: "https://github.com/sdelliaptr", 
   interests: [
     "Pengembangan Web",
     "Analisis Data",

@@ -3,7 +3,7 @@ import { organizations } from "../data/organizations";
 
 export default function Organizations() {
   return (
-    <section className="section-pad py-24 sm:py-32 bg-periwinkle-50/40 dark:bg-white/[0.02]">
+    <section id="organizations" className="section-pad py-24 sm:py-32 bg-periwinkle-50/40 dark:bg-white/[0.02]">
       <div className="mx-auto max-w-6xl">
         <p className="text-sm font-medium text-periwinkle-600 dark:text-periwinkle-300 mb-3">
           Organisasi

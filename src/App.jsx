@@ -24,12 +24,11 @@ export default function App() {
         <Highlights />
         <About />
         <Education />
-        <Experience />
-        <Organizations />
         <Skills />
         <Projects />
         <Trainings />
         <Certifications />
+        <Organizations />
         <Contact />
       </main>
       <Footer />

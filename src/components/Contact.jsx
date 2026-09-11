@@ -18,7 +18,7 @@ const links = [
   {
     label: "Phone",
     value: personal.phone,
-    href: `tel:${personal.phone.replace(/[^\d+]/g, "")}`,
+    href: personal.whatsapp,
     icon: Phone,
   },
 ].filter((l) => l.value);
@@ -44,8 +44,8 @@ export default function Contact() {
                 <a
                   key={label}
                   href={href}
-                  target={label === "LinkedIn" ? "_blank" : undefined}
-                  rel={label === "LinkedIn" ? "noreferrer" : undefined}
+                  target={label === "LinkedIn" || label === "Phone" ? "_blank" : undefined}
+                  rel={label === "LinkedIn" || label === "Phone" ? "noreferrer" : undefined}
                   className="inline-flex items-center gap-2.5 px-5 py-3 rounded-full bg-white/95 hover:bg-white text-ink text-sm font-medium transition-colors"
                 >
                   <Icon className="w-4 h-4 text-periwinkle-600" />

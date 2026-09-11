@@ -8,10 +8,10 @@ const LINKS = [
   { id: "home", label: "Beranda" },
   { id: "about", label: "Tentang Saya" },
   { id: "education", label: "Pendidikan" },
-  { id: "experience", label: "Pengalaman" },
   { id: "skills", label: "Keahlian" },
   { id: "projects", label: "Proyek" },
   { id: "certifications", label: "Sertifikat" },
+  { id: "organizations", label: "Organisasi" },
   { id: "contact", label: "Kontak" },
 ];
 

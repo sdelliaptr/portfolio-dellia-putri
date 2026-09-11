@@ -11,7 +11,7 @@ export const projects = [
     context: "Penelitian Skripsi",
     period: "Mar 2025 — Agu 2026",
     category: "Pengembangan Web · Pembelajaran Mesin",
-    tech: ["Python", "Flask", "ResNet-50", "MySQL"],
+    tech: ["Python", "Flask", "ResNet-50"],
     summary:
       "Sistem berbasis web untuk melakukan skrining katarak berdasarkan citra mata guna mendukung deteksi dini.",
     purpose:
@@ -65,7 +65,7 @@ export const projects = [
       "Menangani seluruh proses analisis, mulai dari pembersihan data, EDA, penanganan pencilan, analisis korelasi, hingga perancangan dasbor.",
     outcome:
       "Menghasilkan visualisasi dan dasbor interaktif yang menyajikan hubungan antara tingkat kemiskinan dan berbagai indikator sosial ekonomi.",
-    github: null,
+    github: "https://github.com/sdelliaptr/data-analysis-kemiskinan",
     demo: null,
     images: [
       { src: "/images/projects/analisis-kemiskinan/1.jpg",
@@ -101,7 +101,7 @@ export const projects = [
       "Menangani proses analisis secara menyeluruh, mulai dari memahami data, melakukan pembersihan, EDA, rekayasa fitur, pengujian statistik, hingga membuat dasbor.",
     outcome:
       "Menghasilkan visualisasi dan dasbor interaktif yang merangkum karakteristik audio yang paling berkaitan dengan popularitas lagu.",
-    github: null,
+    github: "https://github.com/sdelliaptr/spotify-data-analysis",
     demo: null,
     images: [
       { src: "/images/projects/analisis-spotify/1.jpg",
@@ -179,10 +179,95 @@ export const projects = [
     images: [
       { src: "/images/projects/mamih-cooking/1.jpg",
         label: "Gambaran Proyek" },
-      { src: "/images/projects/dante-propolis/2.jpg",
-        label: "Beranda / Antarmuka Utama" },
+      { label: "Gambaran Proyek" },
       { label: "Gambaran Proyek" },
       { label: "Gambaran Proyek" },
     ],
   },
+
+  {
+    id: "moodflix",
+    name: "MoodFlix — Website Rekomendasi Film Berdasarkan Mood",
+    role: "Back-End Developer",
+    org: "Coding Camp 2025",
+    context: "Capstone Project",
+    period: "Juni - Juli 2025",
+    category: "Pengembangan Web · Machine Learning",
+    tech: ["JavaScript", "HAPI.js", "Flask", "REST API", "Machine Learning"],
+    summary:
+      "Website rekomendasi film berdasarkan mood pengguna yang dikembangkan sebagai capstone project Coding Camp 2025.",
+    purpose:
+      "Membangun aplikasi rekomendasi film berdasarkan mood dengan mengintegrasikan layanan back-end dan model Machine Learning.",
+    solution:
+      "Mengembangkan RESTful API, mengintegrasikan Machine Learning API untuk fitur rekomendasi, serta menghubungkan API dengan front-end.",
+    features: [
+      "RESTful API",
+      "Rekomendasi film berdasarkan mood",
+      "Integrasi Machine Learning API",
+      "Integrasi API dengan front-end"
+    ],
+    myRole:
+      "Berperan sebagai Back-End Developer dalam membangun RESTful API, mengintegrasikan Machine Learning API, dan mendukung integrasi API dengan front-end.",
+    outcome:
+      "Menghasilkan aplikasi rekomendasi film berbasis mood dengan layanan back-end dan Machine Learning yang terintegrasi.",
+    github: null,
+    demo: "https://youtube.com/shorts/j9YcnwETpVg?si=IqfIg0vWLITy_O-9",
+    images: [
+      {
+        src: "/images/projects/moodflix/1.jpg",
+        label: "Tampilan MoodFlix"
+      },
+      {
+        label: "Gambar Proyek"
+      },
+      {
+        label: "Gambar Proyek"
+      },
+      {
+        label: "Gambar Proyek"
+      }
+    ],
+  },
+
+  {
+    id: "diabetes-data-analysis",
+    name: "Analisis Data Pasien Diabetes",
+    role: "Analis Data",
+    org: "Universitas Gunadarma",
+    context: "Proyek Analisis Data",
+    period: "Juni 2025",
+    category: "Analisis Data",
+    tech: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+    summary:
+      "Analisis eksploratif untuk mengidentifikasi pola dan karakteristik pasien berdasarkan faktor yang berkaitan dengan diabetes.",
+    purpose:
+      "Mengeksplorasi karakteristik pasien dan hubungan antarvariabel untuk memperoleh insight dari data pasien diabetes.",
+    solution:
+      "Melakukan pemeriksaan dan pembersihan data, analisis statistik deskriptif, serta Exploratory Data Analysis (EDA) menggunakan visualisasi untuk memahami pola pada data.",
+    features: [
+      "Pemeriksaan dan pembersihan data",
+      "Analisis statistik deskriptif",
+      "Exploratory Data Analysis (EDA)",
+      "Visualisasi distribusi dan hubungan antarvariabel"
+    ],
+    myRole:
+      "Menangani proses analisis data secara menyeluruh, mulai dari memahami dan memeriksa data hingga melakukan EDA dan visualisasi.",
+    outcome:
+      "Menghasilkan visualisasi dan insight mengenai karakteristik serta pola data pasien diabetes.",
+    github: "https://github.com/sdelliaptr/diabetes-data-analysis",
+    demo: null,
+    images: [
+      { src: "/images/projects/diabetes-data-analysis/1.jpg",
+        label: "Gambaran Proyek" },
+      {
+        label: "Gambar Proyek"
+      },
+      {
+        label: "Gambar Proyek"
+      },
+      {
+        label: "Gambar Proyek"
+      }
+      ],
+    },
 ];

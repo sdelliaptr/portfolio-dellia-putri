@@ -28,12 +28,12 @@ export default function Hero() {
             {personal.tagline}
           </p>
 
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-col sm:flex-row gap-4">
             <button
               onClick={() =>
                 document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })
               }
-              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-grad-brand text-white font-medium shadow-soft dark:shadow-soft-dark hover:opacity-90 transition-opacity"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-grad-brand text-white font-medium shadow-soft dark:shadow-soft-dark hover:opacity-90 transition-opacity w-full sm:w-auto"
             >
               Lihat Proyek Saya
               <ArrowDown className="w-4 h-4" />
@@ -41,7 +41,7 @@ export default function Hero() {
             <a
               href="/CV_Master_DelliaPutri.pdf"
               download
-              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full card-surface font-medium text-ink dark:text-ink-inverted hover:border-periwinkle-400/50 transition-colors"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full card-surface font-medium text-ink dark:text-ink-inverted hover:border-periwinkle-400/50 transition-colors w-full sm:w-auto"
             >
               Download CV
               <Download className="w-4 h-4" />
